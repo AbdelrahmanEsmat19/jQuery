@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+html,body{
+    scroll-behavior: unset;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+  
+}
+.about-singer , .about-singer2 , .about-singer3 , .about-singer4{
+display: none;
+}
+
+#Home{
+    height: 100vh;
+
+  background-image:   linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/bgHome.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Information{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bgInformation.jpg) ;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+#Duration {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bgDuration.jpg) ;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.icons li {
+border: 1px solid;
+    margin-right: 10px;
+    padding: 12px 15px;
+    ;
+    cursor: pointer;
+}
+
+.icons li:hover{
+border: 1px solid #D62E33;
+    background: #D62E33;
+}
+.nav-item a{
+    transition: all .5s;
+}
+.nav-item a:hover{
+    color: red;
+}
+.navbar-hide , .icon-x{
+    display: none;
+}
